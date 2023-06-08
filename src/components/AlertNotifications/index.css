@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.notificationContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  height: 20vh;
+}
+.heading {
+  text-align: center;
+}
+.success-icon {
+  background-color: white;
+  height: 8vh;
+  width: 1.5vw;
+  color: #2dca73;
+}
+.Error-icon {
+  background-color: white;
+  height: 8vh;
+  width: 1.5vw;
+  color: #ff0b37;
+}
+.Warning-icon {
+  background-color: white;
+  height: 8vh;
+  width: 1.5vw;
+  color: #ffb800;
+}
+.info-icon {
+  background-color: white;
+  height: 8vh;
+  width: 1.5vw;
+  color: #0f81e0;
+}
+.Notification {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-between;
+  border: 0.5px solid #475569;
+  box-shadow: inset;
+  width: 60vw;
+  margin: 1vh;
+}
+.Discription {
+  display: flex;
+  padding: 5px;
+}
+.para {
+  font-weight: bold;
+  color: #2dca73;
+  margin-left: 2vh;
+  font-size: 18px;
+}
+.Error-para {
+  font-weight: bold;
+  color: #ff0b37;
+  margin-left: 2vh;
+  font-size: 18px;
+}
+.warning-para {
+  font-weight: bold;
+  color: #ffb800;
+  margin-left: 2vh;
+  font-size: 18px;
+}
+.info-para {
+  font-weight: bold;
+  color: #0f81e0;
+  margin-left: 2vh;
+  font-size: 18px;
+}
+.cancel-icon {
+  width: 2vw;
+  height: 7vh;
+}
+.cancel {
+  margin-top: 7vh;
+}
+.discrip {
+  color: #475569;
+  font-weight: 500;
+}
